@@ -16,8 +16,12 @@ jobs:
         run: pip install -U yt-dlp
 
       - name: Gerar lista.m3u atualizada
+        env:
+          COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
         run: |
-          LINK=$(yt-dlp --extractor-args "youtube:player_client=android,web" -g "https://youtube.com")
+          echo "$COOKIES" > cookies.txt
+          LINK=$(yt-dlp --cookies cookies.txt -g "https://youtube.com")
+          rm -f cookies.txt
           echo "#EXTM3U" > lista.m3u
           echo '#EXTINF:-1 tvg-name="TV Norte SBT Pará",TV Norte SBT Pará' >> lista.m3u
           echo "$LINK" >> lista.m3u
