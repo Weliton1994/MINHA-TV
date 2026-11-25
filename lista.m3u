@@ -2,14 +2,14 @@
 
 # Canais Abertos
 
-#EXTINF:-02 tvg-name="TV Cultura-PA HD" tvg-logo="https://drive.usercontent.google.com/download?id=1-EL0RuvjvqZUmC3nbPieg4YUG64_-mX1&export=download&authuser=0&confirm=t&uuid=35ab29e3-4b16-4e40-9004-ffd0ba78d539&at=APZUnTXesBUs1kECqcU9A-l0cMq2:1722128174612" group-title="Canais | Abertos",TV Cultura-PA HD
-https://www.portalcultura.com.br/playerhtml/funtelpa/tv_funtelpa/playlist.m3u8
+#EXTINF:-02 tvg-name="TV Cultura-PA HD" tvg-logo="https://google.com" group-title="Canais | Abertos",TV Cultura-PA HD
+https://portalcultura.com.br
 
 #EXTINF:-04 tvg-name="Globo TV Liberal Belém HD" tvg-logo="https://wikimedia.org" group-title="Canais | Abertos",Globo TV Liberal Belém HD
 https://livestream.st
 
-#EXTINF:-05 tvg-name="TV RBA HD" tvg-logo="https://cdn.mitvstatic.com/channels/br_rba-tv-hd_m.png" group-title="Canais | Abertos",TV RBA HD
-https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/chunklist.m3u8
+#EXTINF:-05 tvg-name="TV RBA HD" tvg-logo="https://mitvstatic.com" group-title="Canais | Abertos",TV RBA HD
+https://streamlock.net
 
 #EXTINF:-06 tvg-name="TV Record Belém HD" tvg-logo="https://mitvstatic.com" group-title="Canais | Abertos",TV Record Belém HD
 https://cdnsimba.com.br
@@ -17,26 +17,26 @@ https://cdnsimba.com.br
 #EXTINF:-07 tvg-name="Record News HD" tvg-logo="https://mitvstatic.com" group-title="Canais | Abertos",Record News HD
 https://otteravision.com
 
-#EXTINF:-08 tvg-name="SBT Belém-PA HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/TV_Norte_%282024%29_logo.png" group-title="Canais | Abertos",SBT | TV Norte Belém-PA HD
+#EXTINF:-08 tvg-name="SBT Belém-PA HD" tvg-logo="https://mitvstatic.com" group-title="Canais | Abertos",SBT Belém-PA HD
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795648213/ei/dBYHa4vjPKfx1sQPuJO_oQI/ip/138.117.37.58/id/R0ZJ4uevOd4.2/itag/312/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-2gvwxuvnxnxg8pvncg-cxal.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/bui/AZFAFb_QT_duYLYyCOH8V4-kNYvCYgkt92t80wIMydFMx9gptOXcy4-US_uQu7OWFbYh2MKXkpomkREW/spc/nfZ8ZrSW0VJGLeTvQbbU7lhkW1Ifq0o2FrD_psq1o8IAt6u5WLzCw-d0Vr3o/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1855875/met/1795626614,/mh/wU/mm/44/mn/sn-2gvwxuvnxnxg8pvncg-cxal/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/13/pacing/0/epbp/1/short_key/1/keepalive/yes/fexp/51565116/mt/1795626063/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgcrrqVQn9ND1LQo1d50Q4UpiIK9glcqMc3MSH9JFYNkwCIQDvazszt6xSqsRwkUcFEGlm3so2sZs9tTBkjU08D5zkOA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAJz2GhNQbvSWFrUi-NbYKOOhFDvfoXX00iRcomWuc2nOAiB0adOovkfkenN_alo-TpOGiPxXPK0LwLMdUiR1iafaSg%3D%3D/playlist/index.m3u8
 
 #EXTINF:-09 tvg-name="SBT Pará HD" tvg-logo="https://portaltvparaense.com.br" group-title="Canais | Abertos",SBT | TV Paraense Castanhal-PA HD
 https://jmvstream.com
 
-#EXTINF:-10 tvg-name="SBT Pará HD" tvg-logo="https://drive.usercontent.google.com/download?id=1dMfUyUn4GyCoCfhGD25sVEAZCJ8lyk5Q&export=download&authuser=0&confirm=t&uuid=5190f68d-698f-4e00-b7d2-54e96d6febfa&at=AMrWOn21f-jFIX2RSv2rf5ZGsZEt:1795633731853" group-title="Canais | Abertos",SBT | TV Guajará Tailândia-PA HD
-https://video05.logicahost.com.br/tvguajara/tvguajara/main_stream.m3u8
+#EXTINF:-10 tvg-name="SBT Pará HD" tvg-logo="https://googleapis.com" group-title="Canais | Abertos",SBT | TV Guajará Tailândia-PA HD
+https://logicahost.com.br
 
 #EXTINF:-11 tvg-name="SBT Pará HD" tvg-logo="https://wixstatic.com" group-title="Canais | Abertos",SBT | TV Floresta Tucuruí-PA
 https://logicahost.com.br
 
-#EXTINF:-12 tvg-name="Rede Brasil - TV Marajoara-PA" tvg-logo="https://drive.usercontent.google.com/download?id=1l_t_igrgH0gQI9GT4Iu6ycysCsPKHl_P&export=download&authuser=0&confirm=t&uuid=ee961565-95ce-4cae-9763-9c7d496c932a&at=AMrWOn1SGqdsyhLkEhLrmKBzG8Gi:1795637215956" group-title="Canais | Abertos",Rede Brasil - TV Marajoara-PA HD
-https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
+#EXTINF:-12 tvg-name="Rede Brasil - TV Marajoara-PA" tvg-logo="https://tvmarajoara.com.br" group-title="Canais | Abertos",Rede Brasil - TV Marajoara-PA HD
+https://zas.media
 
 #EXTINF:-13 tvg-name="TV Grão Pará" tvg-logo="https://googleusercontent.com" group-title="Canais | Abertos",TV Grão Pará HD
 https://kshost.com.br
 
-#EXTINF:-14 tvg-name="TV One" tvg-logo="https://tvone.com.br/storage/262/config/DGG3wPxwn6KfTIYnpi20FrhVvdQ7pziEahjjkUES.png" group-title="Canais | Abertos",TV One HD
-https://video02.logicahost.com.br/tvone/tvone/chunklist_w392611474.m3u8
+#EXTINF:-14 tvg-name="TV One" tvg-logo="https://tvone.com.br" group-title="Canais | Abertos",TV One HD
+https://logicahost.com.br
 
-#EXTINF:-15 tvg-name="MULTIMÉDIOS HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Multimedios_Canal_Seis_Logo.svg" group-title="Canais | Abertos",MULTIMÉDIOS HD
-https://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8
+#EXTINF:-15 tvg-name="MULTIMÉDIOS HD" tvg-logo="https://pinimg.com" group-title="Canais | Variedades",MULTIMÉDIOS HD
+https://mdstrm.com
