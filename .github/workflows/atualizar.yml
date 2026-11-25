@@ -27,7 +27,7 @@ jobs:
             COOKIE_ARG=""
           fi
 
-          LINK_SBT=$(yt-dlp $COOKIE_ARG --extractor-args "youtube:player_client=android,web" -g "https://youtube.com" || echo "")
+          LINK_SBT=$(yt-dlp $COOKIE_ARG --socket-timeout 15 --no-playlist -g "https://youtube.com" 2>/dev/null | head -n 1 || echo "")
           rm -f cookies.txt
 
           cat << EOF > lista.m3u
