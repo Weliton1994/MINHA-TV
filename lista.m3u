@@ -29,8 +29,8 @@ https://video05.logicahost.com.br/tvguajara/tvguajara/main_stream.m3u8
 #EXTINF:-11 tvg-name="SBT Pará HD" tvg-logo="https://wixstatic.com" group-title="Canais | Abertos",SBT | TV Floresta Tucuruí-PA
 https://logicahost.com.br
 
-#EXTINF:-12 tvg-name="Rede Brasil - TV Marajoara-PA" tvg-logo="https://tvmarajoara.com.br" group-title="Canais | Abertos",Rede Brasil - TV Marajoara-PA HD
-https://zas.media
+#EXTINF:-12 tvg-name="Rede Brasil - TV Marajoara-PA" tvg-logo="https://drive.usercontent.google.com/download?id=1l_t_igrgH0gQI9GT4Iu6ycysCsPKHl_P&export=download&authuser=0&confirm=t&uuid=ee961565-95ce-4cae-9763-9c7d496c932a&at=AMrWOn1SGqdsyhLkEhLrmKBzG8Gi:1795637215956" group-title="Canais | Abertos",Rede Brasil - TV Marajoara-PA HD
+https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
 
 #EXTINF:-13 tvg-name="TV Grão Pará" tvg-logo="https://googleusercontent.com" group-title="Canais | Abertos",TV Grão Pará HD
 https://kshost.com.br
