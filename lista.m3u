@@ -1,3 +1,48 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="TV Norte SBT Pará",TV Norte SBT Pará
 
+# Canais Abertos
+
+#EXTINF:-01 tvg-name="Band News HD" tvg-logo="https://cdn.mitvstatic.com/channels/br_band-news_m.png" group-title="Canais | Abertos",Band News HD
+# Cole o link da Band News aqui quando encontrar
+
+#EXTINF:-02 tvg-name="TV Cultura-PA HD" tvg-logo="https://drive.usercontent.google.com/download?id=1-EL0RuvjvqZUmC3nbPieg4YUG64_-mX1&export=download&authuser=0&confirm=t&uuid=35ab29e3-4b16-4e40-9004-ffd0ba78d539&at=APZUnTXesBUs1kECqcU9A-l0cMq2:1722128174612" group-title="Canais | Abertos",TV Cultura-PA HD
+https://www.portalcultura.com.br/playerhtml/funtelpa/tv_funtelpa/playlist.m3u8
+
+#EXTINF:-03 tvg-name="Globo News HD" tvg-logo="https://cdn.mitvstatic.com/channels/br_globo-news-hd_m.png" group-title="Canais | Abertos",Globo News HD
+https://a92aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/dsfrp5mjrb/out/v1/9fa07e663bc94e9f93c53726a558478a/cenc.mpd
+
+#EXTINF:-04 tvg-name="Globo TV Liberal Belém HD" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b8/Logotipo_da_Rede_Liberal.png" group-title="Canais | Abertos",Globo TV Liberal Belém HD
+https://livestream.st/live/secure/bl4Fw97XerGGt9YA5p8zIv1Y96klkNYgy_0KFmXr8-g/1795545693/ea0ae48c7755853d/globosp/tracks-v1a1/mono.m3u8
+
+#EXTINF:-05 tvg-name="TV RBA HD" tvg-logo="https://cdn.mitvstatic.com/channels/br_rba-tv-hd_m.png" group-title="Canais | Abertos",TV RBA HD
+https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/chunklist_w2095767466.m3u8
+
+#EXTINF:-06 tvg-name="TV Record Belém HD" tvg-logo="https://cdn.mitvstatic.com/channels/br_record-cuiaba-hd_m.png" group-title="Canais | Abertos",TV Record Belém HD
+https://cache02rj.cdnsimba.com.br/bpk-token/1ab@sxcbfvc2keuu0qwakyjbvfckk32viijvspi2qfba/linear/hls/pa/event/qb5AIgXDTR6CENYsETiEMg/stream/e51462b3-a472-4d6a-837d-663df73ae30b:SCL2/variant/38ea50e778af05e51a7799bbf3c7a36a/bandwidth/3160000.m3u8
+
+#EXTINF:-07 tvg-name="Record News HD" tvg-logo="https://cdn.mitvstatic.com/channels/br_record-news-hd_m.png" group-title="Canais | Abertos",Record News HD
+https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
+
+#EXTINF:-08 tvg-name="SBT Belém-PA HD" tvg-logo="https://cdn.mitvstatic.com/channels/br_sbt-belem-hd_m.png" group-title="Canais | Abertos",SBT Belém-PA HD
+
+
+#EXTINF:-09 tvg-name="SBT Pará HD" tvg-logo="https://portaltvparaense.com.br/wp-content/uploads/2024/07/cropped-cropped-TVPARAENSE.png" group-title="Canais | Abertos",SBT | TV Paraense Castanhal-PA HD
+https://cdn.jmvstream.com/w/AVJ-13102/playlist/master.m3u8
+
+#EXTINF:-10 tvg-name="SBT Pará HD" tvg-logo="https://storage.googleapis.com/ecdt-logo-saida/eda85ec600d0c48787e8e65e8521ff2cabe020beedac4d5e303e749732b63f3f/TV-GUAJARA.webp" group-title="Canais | Abertos",SBT | TV Guajará Tailândia-PA HD
+https://video05.logicahost.com.br/tvguajara/tvguajara/master.m3u8
+
+#EXTINF:-11 tvg-name="SBT Pará HD" tvg-logo="https://static.wixstatic.com/media/af52ef_2f716ba4d1f4423aad8a6aa14f235329.png/v1/fit/w_2500,h_1330,al_c/af52ef_2f716ba4d1f4423aad8a6aa14f235329.png" group-title="Canais | Abertos",SBT | TV Floresta Tucuruí-PA
+https://video01.logicahost.com.br/tvparaensemais/tvparaensemais/playlist.m3u8
+
+#EXTINF:-12 tvg-name="Rede Brasil - TV Marajoara-PA" tvg-logo="https://www.tvmarajoara.com.br/wp-content/uploads/sites/46/2023/06/logotipo.png" group-title="Canais | Abertos", Rede Brasil - TV Marajoara-PA HD
+https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
+
+#EXTINF:-13 tvg-name="TV Grão Pará" tvg-logo="https://play-lh.googleusercontent.com/FOsxqwQHHVQOMupFi6cT1NOVtq7nqV1zyacUmgRIsG2_NZWuqT0TacfwYhKUnpsNnpO2=w240-h480-rw" group-title="Canais | Abertos",TV Grão Pará HD
+https://video01.kshost.com.br:4443/moises3834/moises3834/playlist.m3u8
+
+#EXTINF:-14 tvg-name="TV One" tvg-logo="https://tvone.com.br/storage/262/config/DGG3wPxwn6KfTIYnpi20FrhVvdQ7pziEahjjkUES.png" group-title="Canais | Abertos",TV One HD
+https://video02.logicahost.com.br/tvone/tvone/chunklist_w392611474.m3u8
+
+#EXTINF:-15 tvg-name="MULTIMÉDIOS HD" tvg-logo="https://i.pinimg.com/originals/b9/34/da/b934dad29c37c3942f36c440bfca0559.png" group-title="Canais | Variedades",MULTIMÉDIOS HD
+https://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8
