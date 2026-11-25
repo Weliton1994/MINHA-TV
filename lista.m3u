@@ -23,8 +23,8 @@ https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795648213/ei/
 #EXTINF:-09 tvg-name="SBT Pará HD" tvg-logo="https://portaltvparaense.com.br" group-title="Canais | Abertos",SBT | TV Paraense Castanhal-PA HD
 https://jmvstream.com
 
-#EXTINF:-10 tvg-name="SBT Pará HD" tvg-logo="https://googleapis.com" group-title="Canais | Abertos",SBT | TV Guajará Tailândia-PA HD
-https://logicahost.com.br
+#EXTINF:-10 tvg-name="SBT Pará HD" tvg-logo="https://drive.usercontent.google.com/download?id=1dMfUyUn4GyCoCfhGD25sVEAZCJ8lyk5Q&export=download&authuser=0&confirm=t&uuid=5190f68d-698f-4e00-b7d2-54e96d6febfa&at=AMrWOn21f-jFIX2RSv2rf5ZGsZEt:1795633731853" group-title="Canais | Abertos",SBT | TV Guajará Tailândia-PA HD
+https://video05.logicahost.com.br/tvguajara/tvguajara/main_stream.m3u8
 
 #EXTINF:-11 tvg-name="SBT Pará HD" tvg-logo="https://wixstatic.com" group-title="Canais | Abertos",SBT | TV Floresta Tucuruí-PA
 https://logicahost.com.br
