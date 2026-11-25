@@ -35,11 +35,15 @@ jobs:
             LINK_SBT="https://googlevideo.com"
           fi
 
-          # 2. Busca token atualizado da La Tele (Paraguai)
-          LINK_LATELE=$(curl -sL -A "Mozilla/5.0" "https://latele.com.py" | grep -oE "https://[^\"']*desdeparaguay\.net/latele/[^\"']*\.m3u8[^\"']*" | head -n 1 || echo "")
-          if [ -z "$LINK_LATELE" ]; then
-            LINK_LATELE="https://rds3tf.desdeparaguay.net/latele/latele_int_alta/playlist.m3u8?k=db29822e2cbfd2d3dd4b7d0a6253ae20cb62a6c22e00fb68a314b85e0aa996b3&exp=1795629707"
+                    # 2. Busca token atualizado da La Tele (Paraguai)
+          PLAYER_URL=$(curl -sL -A "Mozilla/5.0" "https://www.latele.com.py/en-vivo" | grep -oE "https://[^\"']*desdeparaguay[^\"']*" | head -n 1 || echo "")
+          if [ -n "$PLAYER_URL" ]; then
+            LINK_LATELE=$(curl -sL -A "Mozilla/5.0" -e "https://www.latele.com.py/en-vivo" "$PLAYER_URL" | grep -oE "https://[^\"']*desdeparaguay\.net/latele/[^\"']*\.m3u8[^\"']*" | head -n 1 || echo "")
           fi
+          if [ -z "$LINK_LATELE" ]; then
+            LINK_LATELE="https://desdeparaguay.net"
+          fi
+
 
           cat << EOF > lista.m3u
           #EXTM3U
