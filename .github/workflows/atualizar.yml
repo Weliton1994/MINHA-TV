@@ -27,23 +27,12 @@ jobs:
             COOKIE_ARG=""
           fi
 
-          # 1. Busca link atualizado do SBT Belém-PA
           LINK_SBT=$(yt-dlp $COOKIE_ARG --geo-bypass-country BR --socket-timeout 15 --no-playlist -g "https://youtube.com" 2>/dev/null | head -n 1 || echo "")
           rm -f cookies.txt
 
           if [ -z "$LINK_SBT" ]; then
-            LINK_SBT="https://googlevideo.com"
+            LINK_SBT="https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795648213/ei/dBYHa4vjPKfx1sQPuJO_oQI/ip/138.117.37.58/id/R0ZJ4uevOd4.2/itag/312/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-2gvwxuvnxnxg8pvncg-cxal.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/bui/AZFAFb_QT_duYLYyCOH8V4-kNYvCYgkt92t80wIMydFMx9gptOXcy4-US_uQu7OWFbYh2MKXkpomkREW/spc/nfZ8ZrSW0VJGLeTvQbbU7lhkW1Ifq0o2FrD_psq1o8IAt6u5WLzCw-d0Vr3o/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1855875/met/1795626614,/mh/wU/mm/44/mn/sn-2gvwxuvnxnxg8pvncg-cxal/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/13/pacing/0/epbp/1/short_key/1/keepalive/yes/fexp/51565116/mt/1795626063/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgcrrqVQn9ND1LQo1d50Q4UpiIK9glcqMc3MSH9JFYNkwCIQDvazszt6xSqsRwkUcFEGlm3so2sZs9tTBkjU08D5zkOA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAJz2GhNQbvSWFrUi-NbYKOOhFDvfoXX00iRcomWuc2nOAiB0adOovkfkenN_alo-TpOGiPxXPK0LwLMdUiR1iafaSg%3D%3D/playlist/index.m3u8"
           fi
-
-                    # 2. Busca token atualizado da La Tele (Paraguai)
-          PLAYER_URL=$(curl -sL -A "Mozilla/5.0" "https://www.latele.com.py/en-vivo" | grep -oE "https://[^\"']*desdeparaguay[^\"']*" | head -n 1 || echo "")
-          if [ -n "$PLAYER_URL" ]; then
-            LINK_LATELE=$(curl -sL -A "Mozilla/5.0" -e "https://www.latele.com.py/en-vivo" "$PLAYER_URL" | grep -oE "https://[^\"']*desdeparaguay\.net/latele/[^\"']*\.m3u8[^\"']*" | head -n 1 || echo "")
-          fi
-          if [ -z "$LINK_LATELE" ]; then
-            LINK_LATELE="https://desdeparaguay.net"
-          fi
-
 
           cat << EOF > lista.m3u
           #EXTM3U
@@ -88,10 +77,6 @@ jobs:
 
           #EXTINF:-15 tvg-name="MULTIMÉDIOS HD" tvg-logo="https://pinimg.com" group-title="Canais | Variedades",MULTIMÉDIOS HD
           https://mdstrm.com
-
-          #EXTINF:-16 tvg-name="La Tele HD" tvg-logo="https://wikimedia.org" group-title="Canais | Variedades",La Tele HD
-          #EXTVLCOPT:http-referer=https://latele.com.py
-          $LINK_LATELE
           EOF
 
           sed -i 's/^[ \t]*//' lista.m3u
